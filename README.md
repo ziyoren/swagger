@@ -3,13 +3,18 @@
 Swagger UI plugin for webman
 
 ## 项目介绍
-
+Swagger是一个规范和完整的框架，用于生成、描述、调用和可视化 RESTful 风格的 Web 服务。
+`ziyoren/swagger`集成了SwaggerUI和`zircote/swagger-php`。具备以下特点：
+* 接口文档在线自动生成
+* 可完成功能测试
+* API文档始终保持同步
 
 ## 安装
-
 ```sh 
 composer require ziyoren/swagger
 ```
+> **注意**
+> 虽然可以在Webman的应用市场下载源码，但是推荐用composer安装，因为可以自动安装相关依赖。
 
 ## 访问
 
@@ -95,5 +100,7 @@ return [
 
 ## Link
 [Swagger-PHP](https://zircote.github.io/swagger-php/)
-[Learn by example](https://github.com/zircote/swagger-php/tree/master/Examples)
+
+[示例值得看看/Learn by example](https://github.com/zircote/swagger-php/tree/master/Examples)
+
 [Swagger-php 2.x documentation](https://github.com/zircote/swagger-php/tree/2.x/docs)
