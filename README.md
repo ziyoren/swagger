@@ -16,6 +16,11 @@ composer require ziyoren/swagger
 > **注意**
 > 虽然可以在Webman的应用市场下载源码，但是推荐用composer安装，因为可以自动安装相关依赖。
 
+如果您是从Webman的应用市场下载的源码，请确保安装了`zircote/swagger-php`
+```sh
+composer require zircote/swagger-php
+```
+
 ## 访问
 
 访问`http://127.0.0.1:8787/app/swagger`就可以看到SwaggerUI的界面。
