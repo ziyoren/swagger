@@ -3,3 +3,4 @@
 /vendor
 *.log
 .env
+/src/plugin/swagger.zip
