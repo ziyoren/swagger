@@ -1,0 +1,21 @@
+{
+    "name": "ziyoren/swagger",
+    "description": "Swagger plugin for Webman",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ziyoren\\Swagger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Liao Jianshan",
+            "email": "10775937@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "workerman/webman-framework": ">=1.4",
+        "zircote/swagger-php": ">=4.5"
+    }
+}
